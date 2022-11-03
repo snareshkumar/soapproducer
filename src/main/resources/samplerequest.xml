@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+		  xmlns:gs="http://com/soap/producer/soapproducer/employee-information">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getEmployeeInformationRequest>
+         <gs:employeeId>1000</gs:employeeId>
+      </gs:getEmployeeInformationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
